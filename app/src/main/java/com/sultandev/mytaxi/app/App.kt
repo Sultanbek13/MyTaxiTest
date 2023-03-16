@@ -3,6 +3,7 @@ package com.sultandev.mytaxi.app
 import android.app.Application
 import com.sultandev.mytaxi.BuildConfig
 import com.sultandev.mytaxi.di.dataModule
+import com.sultandev.mytaxi.di.domainModule
 import com.sultandev.mytaxi.di.viewModelModule
 import org.koin.android.ext.koin.androidContext
 import org.koin.android.ext.koin.androidFileProperties
@@ -24,10 +25,8 @@ class App: Application() {
             androidLogger()
             androidContext(this@App)
             androidFileProperties()
-            koin.loadModules(listOf(dataModule, viewModelModule))
+            koin.loadModules(listOf(dataModule, domainModule, viewModelModule))
         }
-
-
     }
 
     companion object {

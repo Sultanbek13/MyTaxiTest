@@ -24,11 +24,17 @@ val dataModule = module {
     fun provideLocationDao(appDatabase: AppDatabase): LocationDao = appDatabase.locationDao()
 
     single { provideAppDatabase(androidContext()) }
+
     single { provideLocationDao(get()) }
+
+}
+
+val domainModule = module {
 
     single<MapRepository> { MapRepositoryImpl(get()) }
 
     single<MapUseCase> { MapUseCaseImpl(get()) }
+
 }
 
 val viewModelModule = module {

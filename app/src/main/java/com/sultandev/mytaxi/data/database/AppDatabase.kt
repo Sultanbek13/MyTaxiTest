@@ -7,7 +7,6 @@ import com.sultandev.mytaxi.data.entity.LocationEntity
 
 @Database(entities = [LocationEntity::class], version = 1)
 abstract class AppDatabase: RoomDatabase() {
-
     abstract fun locationDao(): LocationDao
 
 }
