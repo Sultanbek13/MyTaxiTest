@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_small">4dp</dimen>
+    <dimen name="margin_standard">8dp</dimen>
+    <dimen name="margin_large">16dp</dimen>
+    <dimen name="margin_large_middle">24dp</dimen>
+    <dimen name="margin_large_large">32dp</dimen>
+    <dimen name="tv_standard_size">14sp</dimen>
+    <dimen name="padding_standard">4dp</dimen>
+    <dimen name="padding_large">12dp</dimen>
+    <dimen name="text_size_small">10sp</dimen>
+    <dimen name="text_size_extra_small">8sp</dimen>
+    <dimen name="text_size_standard">14sp</dimen>
+    <dimen name="padding_middle">8dp</dimen>
+</resources>

@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">MyTaxi</string>
+    <string name="mapbox_access_token">sk.eyJ1Ijoic3VsdGFuZGV2IiwiYSI6ImNsZXk4ZWM2bzJpajgzenAxa2JkbXFjMGwifQ.9RKNj9Lav5ZjDShz2ifq8Q</string>
+    <string name="network_error">Необходим интернет</string>
+    <string name="free">Свободен</string>
+    <string name="busy">Занят</string>
+    <string name="unknown_error">Неизвестная ошибка</string>
+    <string name="error">Ошибка</string>
+    <string name="location_processing">Обробативается ваши локация</string>
+    <string name="my_taxi">MyTaxi</string>
+    <string name="your_location">Ваши локация</string>
+    <string name="location_needed">Необходим геолокация</string>
+    <string name="_1">1</string>
+    <string name="have_location_permission">Есть доступ к локациям</string>
+    <string name="not_have_location_permission">Нет доступ к локациям</string>
+    <string name="turn_on">Исправить</string>
+    <string name="no">НЕТ</string>
+    <string name="orders">Заказы</string>
+    <string name="rates">Тарифы</string>
+    <string name="curb">Бардюр</string>
+    <string name="zoom_in">Увеличение</string>
+    <string name="zoom_out">Уменьшение</string>
+    <string name="my_location">Моя локация</string>
+    <string name="more">Прочее</string>
+    <string name="notification">Уведемление</string>
+    <string name="no_location">Неизвестная локация</string>
+</resources>
